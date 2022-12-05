@@ -1,6 +1,7 @@
 var alerta = document.getElementById("mostrar");
 var des = document.getElementById("descarga");
 var url = document.getElementById("ir");
+var des2 = document.getElementById("descarga2");
 //var ventana = prompt("escribe tu nombre");
 //texto.innerHTML=nombre;
 swal({
@@ -14,6 +15,17 @@ des.onclick = function(){
 	location.href="https://play.google.com/store/apps/details?id=dev.smsoft.tmlitevpn"
 
 }
+
+des2.onclick = function(){
+	location.href="https://play.google.com/store/apps/details?id=co.strongteam.amlite"
+
+
+
+}
+
+
+
+
 
 alerta.onclick = function(){
 	swal({
